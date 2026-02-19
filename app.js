@@ -2,7 +2,6 @@ import express from "express";
 import cookieParser from "cookie-parser";
 
 import authRoutes from "./routes/auth.js";
-import { authVerifier } from "./middleware/auth.js";
 
 const app = express();
 
